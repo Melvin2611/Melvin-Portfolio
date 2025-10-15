@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+}
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+header {
+  background-color: #2c7873; /* Teal */
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+/* Gesamt-Layout der Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Zuerst alles mittig */
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* Logo bleibt absolut links */
+.logo {
+  position: absolute;
+  left: 0;
+}
+.logo img {
+  height: 50px;
+  display: block;
+}
+/* Navigation in der Mitte */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+.nav-links a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  text-shadow:
+    1px 1px 2px black,
+    -1px -1px 2px black,
+    1px -1px 2px black,
+    -1px 1px 2px black;
+}
+.nav-links a:hover,
+.nav-links a.active {
+  color: #c792ea; /* etwas helleres Lila */
+  text-shadow:
+    2px 2px 3px black,
+    -2px -2px 3px black,
+    2px -2px 3px black,
+    -2px 2px 3px black;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+nav a:hover, nav a.active {
+    color: #6a1b9a; /* Purple */
+}
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #2c7873, #6a1b9a);
+}
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow:
+    2px 2px 0 #000,   /* rechts unten */
+    -2px -2px 0 #000, /* links oben */
+    2px -2px 0 #000,  /* rechts oben */
+    -2px 2px 0 #000;  /* links unten */
+}
+.herotext {
+  color: #ffffff;
+  text-shadow:
+    1px 1px 0 #000,   /* rechts unten */
+    -1px -1px 0 #000, /* links oben */
+    1px -1px 0 #000,  /* rechts oben */
+    -1px 1px 0 #000;  /* links unten */
+}
+.cta {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #6a1b9a; /* Purple */
+    color: #e0e0e0;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    text-shadow:
+    0.5px 0.5px 1px black,
+    -0.5px -0.5px 1px black,
+    0.5px -0.5px 1px black,
+    -0.5px 0.5px 1px black;
+    box-shadow: 1px 6px 5px #1a1a1a;
+}
+.cta:hover {
+    transform: scale(1.05);
+    background-color: #8838b8;
+}
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+section {
+    margin-bottom: 2rem;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #2c7873; /* Teal */
+}
+hr {
+  color: #aaaaaa;
+}
+
+.Linking {
+  color: #2c7873 !important; /* Teal */
+  font-style: italic !important; /* Kursiv */
+  text-decoration: none; /* Unterstreichung entfernen */
+}
+
+.Linking:visited {
+  color: #2c7873 !important; /* besuchte Links bleiben Teal */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.cta-svg-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8rem 1.5rem;
+  background-color: #6a1b9a;
+  color: #e0e0e0;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  border-radius: "12px";
+}
+
+.cta-svg-button:hover {
+  transform: scale(1.05);
+  background-color: #8838b8;
+  box-shadow: 0 0 8px rgba(106, 27, 154, 0.5);
+}
+
+.cta-svg-button svg {
+  display: block;
+}
