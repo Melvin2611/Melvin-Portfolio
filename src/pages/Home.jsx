@@ -102,7 +102,7 @@ export default function Home() {
           Or maybe over Fiverr: <p><a href="https://www.fiverr.com/melvin2611" className="Linking">https://www.fiverr.com/melvin2611</a></p>
         </p>
         <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-        <EmailButton /> <SvgButton url="https://www.fiverr.com/melvin2611" imgSrc="/Media/images/Fiverr.svg" size={40} alt="Fiverr Button"/> <SvgButton url="https://github.com/Melvin2611" imgSrc="/Media/images/GitHub.svg" size={40} alt="GitHub Button"/> <SvgButton url="https://www.youtube.com/@Avokade2611" imgSrc="/Media/images/YouTube.svg" size={40} alt="YouTube Button"/>
+        <EmailButton /> <SvgButton url="https://www.fiverr.com/melvin2611" imgSrc={`${import.meta.env.BASE_URL}Media/images/Fiverr.svg`} size={40} alt="Fiverr Button"/> <SvgButton url="https://github.com/Melvin2611" imgSrc={`${import.meta.env.BASE_URL}Media/images/GitHub.svg`} size={40} alt="GitHub Button"/> <SvgButton url="https://www.youtube.com/@Avokade2611" imgSrc={`${import.meta.env.BASE_URL}Media/images/YouTube.svg`} size={40} alt="YouTube Button"/>
       </section>
     </>
   );
