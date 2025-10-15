@@ -6,7 +6,7 @@ export default function Header() {
       <nav className="navbar">
         <div className="logo">
           <NavLink to="/" end><img
-            src="/Media/images/Logo.svg"
+            src="/react-portfolio/Media/images/Logo.svg"
             alt="Melvin Gieswein Logo"
             style={{ height: "50px" }}
           /></NavLink>
