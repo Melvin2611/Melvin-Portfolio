@@ -6,9 +6,9 @@ export default function Header() {
       <nav className="navbar">
         <div className="logo">
           <NavLink to="/" end><img
-            src={`${import.meta.env.BASE_URL}Media/images/Logo.svg`}
+            src={`${import.meta.env.BASE_URL}Media/images/Logo.png`}
             alt="Melvin Gieswein Logo"
-            style={{ height: "50px" }}
+            style={{ height: "50px", borderRadius: "25px",}}
           /></NavLink>
         </div>
         <ul className="nav-links">
