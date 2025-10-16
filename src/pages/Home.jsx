@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import EmailButton from "../components/EmailButton";
 import SvgButton from "../components/SVGButton";
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   const scrollToSection = (sectionId) => {
@@ -25,6 +26,7 @@ export default function Home() {
 
   return (
     <>
+      <br /><br /><br />
       <section className="hero">
         <h1>Melvin Gieswein</h1>
         <p className="herotext">
@@ -58,7 +60,7 @@ export default function Home() {
         <p>
           I'm still in the Process of Learning Software Development, but I plan in speciallising on Mobile Apps with Kotlin.
           <br></br>
-          for more Information, you can check out my <a href="react-portfolio/software" className="Linking">Software</a> Page!
+          for more Information, you can check out my <Link to="/software" className="Linking">Software</Link> Page!
         </p>
       </section>
       <hr></hr>
@@ -68,7 +70,7 @@ export default function Home() {
         <p>
           I'm at the Moment Learning JavaScript and the React framework to build modern, interactive and reactive Websites. If you want an example This Website is made by me with html, css, JavaScript and React!
           <br></br>  
-          for more Information, you can check out my <a href="react-portfolio/websites" className="Linking">Websites</a> Page!
+          for more Information, you can check out my <Link to="/websites" className="Linking">Websites</Link> Page!
         </p>
       </section>
       <hr></hr>
@@ -78,17 +80,17 @@ export default function Home() {
         <p>
           I am using DaVinci Resolve for the Videos and already have the knowledge on how to use it, Commisions are already open. I am certain, that I will be able to satisfy and create great Videos for you!
           <br></br>  
-          for more Information, you can check out my <a href="react-portfolio/videoediting" className="Linking">Video Editing</a> Page!
+          for more Information, you can check out my <Link to="/videoediting" className="Linking">Video Editing</Link> Page!
         </p>
       </section>
       <hr></hr>
       <br></br>
       <section id="animation">
-        <h2>Animation</h2>
+        <h2>Animations</h2>
         <p>
-          For Animating I am using the Python Library Manim, at the Moment I am still in the Process of Learning, but for simple but Modern Animations for maybe Youtube, it is already Great! I also have example Videos of my Manim creations on the <a href="/animation" className="Linking">Animation</a> Page, and also on my <a href="/websites" className="Linking">Websites</a> Page!
+          For Animating I am using the Python Library Manim, at the Moment I am still in the Process of Learning, but for simple but Modern Animations for maybe Youtube, it is already Great! I also have example Videos of my Manim creations on my <Link to="/animation" className="Linking">Animations</Link> Page, and also on my <Link to="/websites" className="Linking">Websites</Link> Page!
           <br></br>  
-          for more Information, you can check out my <a href="react-portfolio/animation" className="Linking">Animation</a> Page!
+          for more Information, you can check out my <Link to="/animation" className="Linking">Animations</Link> Page!
         </p>
       </section>
       <hr></hr>

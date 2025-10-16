@@ -16,6 +16,7 @@ export default function Software() {
 
   return (
     <>
+      <br /><br /><br />
       <section id="softwarehhead">
         <h1>Software Development</h1>
         <br />
@@ -37,6 +38,7 @@ export default function Software() {
                 boxShadow: "5px 0px 5px black",
                 alignSelf: "left",
               }}
+              className="exampleP"
             />
           </a>
           <div style={{ display: "flex", flexDirection: "column" }}>

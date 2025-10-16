@@ -1,4 +1,6 @@
 import { useEffect } from "react";
+import { Link } from 'react-router-dom';
+
 export default function Websites() {
   useEffect(() => {
     const sections = document.querySelectorAll("section");
@@ -14,16 +16,28 @@ export default function Websites() {
   }, []);
   return (
     <>
+      <br /><br /><br />
       <section id="webheader">
         <h1>Web Development</h1>
         <br />
         <p>See the responsive and modern Webpages I have done with HTML, CSS, JavaScript and frameworks like React.</p>
-        <br></br><br></br>
-        <h2>Examples:</h2>
+      </section>
+      <section id="webadVideo">
+        <div className="flex justify-center p-4">
+          <video
+            src={`${import.meta.env.BASE_URL}/Media/videos/webad.mp4`}
+            autoPlay
+            loop
+            width="100%"
+            height="480px"
+          />
+        </div>
       </section>
       <section id="webexamples">
+        <h2>Examples:</h2>
+        <br /><br />
         <div className="Example">
-          <a href="/">
+          <Link to="/">
             <img
               src={`${import.meta.env.BASE_URL}Media/images/Homescr.png`}
               alt="HomeScreen png"
@@ -33,8 +47,9 @@ export default function Websites() {
                 boxShadow: "5px 0px 5px black",
                 alignSelf: "left",
               }}
+              className="exampleP"
             />
-          </a>
+            </Link>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <br />
             <h3>Melvin Gieswein Portfolio</h3>
