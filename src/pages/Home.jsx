@@ -33,7 +33,7 @@ export default function Home() {
           I am a passionate programmer, specialised in Softwaredevelopment, Webdesign, Video Editing and Animations. I will Gladly take your commissions and get you and your Customers a Product they deserve!
         </p>
         <br></br><br></br>
-        <a className="cta" onClick={() => scrollToSection('contact')}>Contact Me</a>
+        <a href="#contact" className="cta" onClick={() => scrollToSection('contact')}>Contact Me</a>
       </section>
       <hr></hr>
       <br></br>

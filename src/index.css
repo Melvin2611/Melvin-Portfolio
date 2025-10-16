@@ -209,8 +209,10 @@ header {
     font-size: larger;
 }
 .cta:hover {
+    display: inline-block;
     transform: scale(1.05);
     background-color: #8838b8;
+    cursor: pointer !important;
 }
 main {
     max-width: 1200px;
@@ -229,19 +231,18 @@ hr {
   color: #aaaaaa;
 }
 
-.Linking {
-  color: #2c7873 !important; /* Teal */
+.Linking,
+.Linking:link,
+.Linking:visited {
+  color: #2c7873; /* Teal */
   font-style: italic !important; /* Kursiv */
   text-decoration: none; /* Unterstreichung entfernen */
-  transition: transform 0.2s ease;
 }
 
+.Linking:active,
 .Linking:hover {
-  transform: scale(2);
-}
-
-.Linking:visited {
-  color: #2c7873 !important; /* besuchte Links bleiben Teal */
+  cursor: pointer;
+  color: #387a76
 }
 
 html {
@@ -264,6 +265,7 @@ html {
   transform: scale(1.05);
   background-color: #8838b8;
   box-shadow: 0 0 8px rgba(106, 27, 154, 0.5);
+  cursor: pointer;
 }
 
 .cta-svg-button svg {
@@ -280,6 +282,7 @@ html {
 }
 .Example:hover {
   transform: scale(1.2);
+  cursor: pointer;
 }
 
 .exampleP {
@@ -287,4 +290,5 @@ html {
 }
 .exampleP:hover {
   transform: scale(1.05);
+  cursor: pointer;
 }

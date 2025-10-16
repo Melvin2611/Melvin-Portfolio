@@ -21,10 +21,11 @@ export default function Websites() {
         <h1>Animations</h1>
         <br />
         <p>I will create you some creative and stylistic 2D animations for your videos or websites.</p>
-        <br /><br />
+        <br /><br /><br />
         <h2>Examples:</h2>
+        <br />
       </section>
-      <section id="webexamples">
+      <section id="aniexample1">
         <div className="Example">
             <video
               src={`${import.meta.env.BASE_URL}public/Media/videos/webadani.mp4`}
@@ -44,6 +45,32 @@ export default function Websites() {
             <p>This is also a great example of what you can expect from me and in what type of animation I specialise in,</p>
             <p> so it is great for maybe showing something cool for a Youtube Video or a short form Video like a TikTok, Reel</p>
             <p>or YTshort. </p>
+          </div>
+        </div>
+        <br /><br />
+      </section>
+      <section id="aniexample2">  
+        <div className="Example">
+            <video
+              src={`${import.meta.env.BASE_URL}public/Media/videos/T5SMAani.mp4`}
+              controls
+              width="31.2%"
+              height="200px"
+              style = {{borderRadius: "18px",boxShadow: "5px 0px 5px black", alignSelf: "left"}}
+              className="exampleP"
+            />
+          <div style={{ display: "flex", flexDirection: "column" }}>
+            <br />
+            <h3>Top 5 Social Media Apps</h3>
+            <br />
+            <p>
+              This is another animation I've made, another great Example, on what my Animations can be used for.</p> 
+              <p>This Animation in Particular is only made for my Portfolio, so you won't find it anywhere else.</p>
+              <br />
+              <p>If you find this animation in Particular is what you are looking for, I can also change the Text in this</p>
+              <p>Animation to your Liking and give it to you like this, you only need to contact me over on</p>
+              <p><Link to="/#contact" className="Linking">my Contact section</Link> of the Homepage.
+            </p>
           </div>
         </div>
       </section>
