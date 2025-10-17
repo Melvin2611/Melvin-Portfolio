@@ -28,7 +28,7 @@ export default function Websites() {
       <section id="aniexample1">
         <div className="Example">
             <video
-              src={`${import.meta.env.BASE_URL}public/Media/videos/webadani.mp4`}
+              src={`${import.meta.env.BASE_URL}/Media/videos/webadani.mp4`}
               controls
               width="35%"
               height="200px"
@@ -52,7 +52,7 @@ export default function Websites() {
       <section id="aniexample2">  
         <div className="Example">
             <video
-              src={`${import.meta.env.BASE_URL}public/Media/videos/T5SMAani.mp4`}
+              src={`${import.meta.env.BASE_URL}/Media/videos/T5SMAani.mp4`}
               controls
               width="31.2%"
               height="200px"
