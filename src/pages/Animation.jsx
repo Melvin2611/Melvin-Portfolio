@@ -28,9 +28,9 @@ export default function Websites() {
       <section id="aniexample1">
         <div className="Example">
             <video
-              src={`${import.meta.env.BASE_URL}/Media/videos/webadani.mp4`}
+              src={`${import.meta.env.BASE_URL}Media/videos/webadani.mp4`}
               controls
-              width="35%"
+              width="31.2%"
               height="200px"
               style = {{borderRadius: "18px",boxShadow: "5px 0px 5px black", alignSelf: "left"}}
               className="exampleP"
@@ -52,7 +52,7 @@ export default function Websites() {
       <section id="aniexample2">  
         <div className="Example">
             <video
-              src={`${import.meta.env.BASE_URL}/Media/videos/T5SMAani.mp4`}
+              src={`${import.meta.env.BASE_URL}Media/videos/T5SMAani.mp4`}
               controls
               width="31.2%"
               height="200px"
