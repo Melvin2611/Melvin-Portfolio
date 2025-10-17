@@ -39,9 +39,9 @@ export default function Websites() {
             <br />
             <h3>Website creating Ad</h3>
             <br />
-            <p>
-              This is one of the Animations I have done, if you want to see it in use, you can check out my <Link to="/websites" className="Linking">Websites</Link> Page, where I used it for myself.
-            </p><br />
+            <p>This is one of the Animations I have done, if you want to see it in use, you can check out my <Link to="/websites" className="Linking">Websites</Link></p>
+            <p>Page, where I used it for myself.</p>
+            <br />
             <p>This is also a great example of what you can expect from me and in what type of animation I specialise in,</p>
             <p> so it is great for maybe showing something cool for a Youtube Video or a short form Video like a TikTok, Reel</p>
             <p>or YTshort. </p>
