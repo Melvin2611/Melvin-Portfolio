@@ -99,7 +99,7 @@ export default function Home() {
         <h2>Contact</h2>
         <br></br>
         <p>
-          You can contact me over my Email: <p className="Linking">98172640+Melvin2611@users.noreply.github.com</p>
+          You can contact me over my Email: <br /><span className="Linkingmail">98172640+Melvin2611@users.noreply.github.com</span>
           <br></br>
           Or maybe over Fiverr: <p><a href="https://www.fiverr.com/melvin2611" className="Linking">https://www.fiverr.com/melvin2611</a></p>
         </p>

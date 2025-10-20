@@ -58,7 +58,7 @@ header {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  width: 100%;
+  max-width: 40px;
   height: 80%;
 }
 
@@ -248,6 +248,26 @@ hr {
   cursor: pointer;
   color: #387a76
 }
+
+.Linkingmail,
+.Linkingmail:link,
+.Linkingmail:visited {
+  color: #2c7873; /* Teal */
+  font-style: italic !important; /* Kursiv */
+  text-decoration: none; /* Unterstreichung entfernen */
+}
+
+.Linkingmail:active,
+.Linkingmail:hover {
+  cursor: pointer;
+  color: #387a76
+}
+@media (max-width: 900px) {
+  .Linkingmail {
+    font-size: 8px;
+  }
+}
+
 
 html {
   scroll-behavior: smooth;
