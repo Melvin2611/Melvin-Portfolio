@@ -29,27 +29,27 @@ export default function Header() {
         {/* Navigation */}
         <ul className={`nav-links ${isOpen ? "active" : ""}`}>
           <li>
-            <NavLink to="/react-portfolio/" end onClick={() => setIsOpen(false)}>
+            <NavLink to="/" end onClick={() => setIsOpen(false)}>
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink to="/react-portfolio/software" onClick={() => setIsOpen(false)}>
+            <NavLink to="/software" onClick={() => setIsOpen(false)}>
               Software
             </NavLink>
           </li>
           <li>
-            <NavLink to="/react-portfolio/websites" onClick={() => setIsOpen(false)}>
+            <NavLink to="/websites" onClick={() => setIsOpen(false)}>
               Websites
             </NavLink>
           </li>
           <li>
-            <NavLink to="/react-portfolio/videoediting" onClick={() => setIsOpen(false)}>
+            <NavLink to="/videoediting" onClick={() => setIsOpen(false)}>
               Video Editing
             </NavLink>
           </li>
           <li>
-            <NavLink to="/react-portfolio/animation" onClick={() => setIsOpen(false)}>
+            <NavLink to="/animation" onClick={() => setIsOpen(false)}>
               Animations
             </NavLink>
           </li>
