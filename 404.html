@@ -1,7 +1,14 @@
+<!-- public/404.html -->
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=/" />
+    <meta charset="UTF-8" />
+    <title>Redirecting…</title>
+    <script type="text/javascript">
+      // Leitet alle Pfade auf index.html um
+      var redirect = "/react-portfolio" + window.location.pathname + window.location.search;
+      window.location.replace(redirect);
+    </script>
   </head>
   <body></body>
 </html>
