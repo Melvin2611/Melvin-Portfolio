@@ -5,7 +5,7 @@ import CopyIcon from "/Media/images/Email.svg";
 
 export default function CopyButton() {
   const [copied, setCopied] = useState(false);
-  const email = "gieswein.melvin@gmail.com"; // Hier deine E-Mail eintragen
+  const email = "98172640+Melvin2611@users.noreply.github.com"; // Hier deine E-Mail eintragen
 
   const handleCopy = () => {
     navigator.clipboard.writeText(email).then(() => {

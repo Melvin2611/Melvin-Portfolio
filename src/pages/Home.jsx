@@ -28,7 +28,7 @@ export default function Home() {
     <>
       <br /><br /><br />
       <section className="hero">
-        <h1>Melvin Gieswein</h1>
+        <h1>Avokade</h1>
         <p className="herotext">
           I am a passionate programmer, specialised in Softwaredevelopment, Webdesign, Video Editing and Animations. I will Gladly take your commissions and get you and your Customers a Product they deserve!
         </p>
@@ -99,7 +99,7 @@ export default function Home() {
         <h2>Contact</h2>
         <br></br>
         <p>
-          You can contact me over my Email: <p className="Linking">gieswein.melvin@gmail.com</p>
+          You can contact me over my Email: <p className="Linking">98172640+Melvin2611@users.noreply.github.com</p>
           <br></br>
           Or maybe over Fiverr: <p><a href="https://www.fiverr.com/melvin2611" className="Linking">https://www.fiverr.com/melvin2611</a></p>
         </p>
