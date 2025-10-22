@@ -238,7 +238,7 @@ hr {
 .Linking,
 .Linking:link,
 .Linking:visited {
-  color: #2c7873; /* Teal */
+  color: #50e0d7; /* Teal */
   font-style: italic !important; /* Kursiv */
   text-decoration: none; /* Unterstreichung entfernen */
 }
@@ -246,13 +246,13 @@ hr {
 .Linking:active,
 .Linking:hover {
   cursor: pointer;
-  color: #387a76
+  color: #2c7873;
 }
 
 .Linkingmail,
 .Linkingmail:link,
 .Linkingmail:visited {
-  color: #2c7873; /* Teal */
+  color: #50e0d7; /* Teal */
   font-style: italic !important; /* Kursiv */
   text-decoration: none; /* Unterstreichung entfernen */
 }
@@ -260,7 +260,7 @@ hr {
 .Linkingmail:active,
 .Linkingmail:hover {
   cursor: pointer;
-  color: #387a76
+  color: #2c7873
 }
 @media (max-width: 900px) {
   .Linkingmail {
